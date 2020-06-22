@@ -35,7 +35,7 @@ caixa.onmousedown = () => {
     caixa.style.top = '144px'
     caixa.style.left = '169px'
     caixa.innerHTML = `
-    <audio id="soundCaixa" src="./assets/sounds/FORRO-caixa.wav"></audio>
+    <audio id="soundCaixa" src="./assets/sounds/FORRO-CAIXA.wav"></audio>
     `
     document.getElementById('soundCaixa').play()
 }
@@ -45,7 +45,7 @@ surdo.onmousedown = () => {
     surdo.style.top = '144px'
     surdo.style.left = '369px'
     surdo.innerHTML = `
-    <audio id="soundSurdo" src="./assets/sounds/FORRO-surdo.wav"></audio>
+    <audio id="soundSurdo" src="./assets/sounds/FORRO-SURDO.wav"></audio>
     `
     document.getElementById('soundSurdo').play()
 }
@@ -312,7 +312,7 @@ window.addEventListener("keydown", (e) =>{
             caixa.style.top = '144px'
             caixa.style.left = '169px'
             caixa.innerHTML = `
-            <audio id="soundCaixa" src="./assets/sounds/FORRO-caixa.wav"></audio>
+            <audio id="soundCaixa" src="./assets/sounds/FORRO-CAIXA.wav"></audio>
             `
             document.getElementById('soundCaixa').play()
         break;
@@ -345,7 +345,7 @@ window.addEventListener("keydown", (e) =>{
             surdo.style.top = '144px'
             surdo.style.left = '369px'
             surdo.innerHTML = `
-            <audio id="soundSurdo" src="./assets/sounds/FORRO-surdo.wav"></audio>
+            <audio id="soundSurdo" src="./assets/sounds/FORRO-SURDO.wav"></audio>
             `
             document.getElementById('soundSurdo').play()
         break;   
