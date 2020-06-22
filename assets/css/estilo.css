@@ -1,0 +1,103 @@
+body{
+    background-color: blueviolet;
+}
+#drum{
+    position: absolute;
+    top: 10%;
+}
+.tom1{
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: 180px;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/pele1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tom2{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 290px;
+    width: 125px;
+    height: 125px;
+    background-image: url(../img/pele1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caixa{
+    position: absolute;
+    top: 145px;
+    left: 170px;
+    width: 135px;
+    height: 135px;
+    background-image: url(../img/caixa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.surdo{
+    position: absolute;
+    top: 145px;
+    left: 370px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/pele1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bumbo{
+    position: absolute;
+    z-index: -1;
+    left: 235px;
+    top: 140px;
+    width: 179px;
+    height: 179px;
+    background-image: url(../img/BUMBO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crash1{
+    position: absolute;
+    z-index: 1;
+    left: 400px;
+    width: 155px;
+    height: 150px;
+    background-image: url('../img/ataque1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crash2{
+    position: absolute;
+    z-index: 1;
+    top: -56px;
+    left: 200px;
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/ataque2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hithatclosed{
+    position: absolute;
+    z-index: 0;
+    top: 89px;
+    left: 80px;
+    width: 118px;
+    height: 116px;
+    background-image: url('../img/hithat1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hithatopen{
+    position: absolute;
+    z-index: -1;
+    top: 144px;
+    left: 43px;
+    width: 127px;
+    height: 127px;
+    background-image: url('../img/hithat1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
